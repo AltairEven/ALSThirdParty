@@ -25,16 +25,16 @@ This is a long description of ALSThirdParty. This is a long description of ALSTh
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AltairEven' => 'qianye.qy@alibaba-inc.com' }
-  s.source           = { :git => 'https://github.com/AltairEven/ALSThirdParty.git'}
+    s.source           = { :git => 'https://github.com/AltairEven/ALSThirdParty.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
+  s.ios.source_files = "ALSThirdParty/Classes/**/*.{h,m}"
   s.ios.public_header_files = "ALSThirdParty/Classes/**/*.h"
-  s.ios.source_files = "ALSThirdParty/Classes/**/*.h"
   s.ios.vendored_frameworks = "ALSThirdParty/Classes/**/*.{framework}"
-  s.ios.vendored_libraries = "ALSThirdParty/Classes/*.{a}","ALSThirdParty/Classes/**/*.{a}"
-  s.ios.resources = "ALSThirdParty/Classes/*.bundle","ALSThirdParty/Classes/**/*.bundle"
+  s.ios.vendored_libraries = "ALSThirdParty/Classes/**/*.{a}"
+  s.ios.resources = "ALSThirdParty/Classes/**/*.bundle"
   s.ios.frameworks = 'SystemConfiguration','CoreTelephony'
   s.ios.libraries = 'stdc++.6.0.9','c++','z.1.2.8','sqlite3.0'
 end

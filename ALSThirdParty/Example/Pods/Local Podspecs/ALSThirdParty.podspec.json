@@ -13,24 +13,17 @@
   },
   "source": {
     "git": "https://github.com/AltairEven/ALSThirdParty.git",
-    "tag": "0.0.1",
-    "commit": "86c6de50aeebf69b94b692c2317ea91d454ef5a9"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
   "ios": {
+    "source_files": "ALSThirdParty/Classes/**/*.{h,m}",
     "public_header_files": "ALSThirdParty/Classes/**/*.h",
-    "source_files": "ALSThirdParty/Classes/**/*.h",
     "vendored_frameworks": "ALSThirdParty/Classes/**/*.{framework}",
-    "vendored_libraries": [
-      "ALSThirdParty/Classes/*.{a}",
-      "ALSThirdParty/Classes/**/*.{a}"
-    ],
-    "resources": [
-      "ALSThirdParty/Classes/*.bundle",
-      "ALSThirdParty/Classes/**/*.bundle"
-    ],
+    "vendored_libraries": "ALSThirdParty/Classes/**/*.{a}",
+    "resources": "ALSThirdParty/Classes/**/*.bundle",
     "frameworks": [
       "SystemConfiguration",
       "CoreTelephony"
