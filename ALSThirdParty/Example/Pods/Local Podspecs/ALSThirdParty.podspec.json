@@ -1,0 +1,45 @@
+{
+  "name": "ALSThirdParty",
+  "version": "0.1.0",
+  "summary": "A short description of ALSThirdParty.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AltairEven/ALSThirdParty",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AltairEven": "qianye.qy@alibaba-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/AltairEven/ALSThirdParty.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_frameworks": [
+    "ALSThirdParty/Classes/*.{framework}",
+    "ALSThirdParty/Classes/**/*.{framework}"
+  ],
+  "public_header_files": "ALSThirdParty/Classes/**/*.h",
+  "source_files": "ALSThirdParty/Classes/**/*.h",
+  "vendored_libraries": [
+    "ALSThirdParty/Classes/*.{a}",
+    "ALSThirdParty/Classes/**/*.{a}"
+  ],
+  "resources": [
+    "ALSThirdParty/Classes/*.bundle",
+    "ALSThirdParty/Classes/**/*.bundle"
+  ],
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreTelephony"
+  ],
+  "libraries": [
+    "stdc++.6.0.9",
+    "c++",
+    "z.1.2.8",
+    "sqlite3.0"
+  ]
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ALSThirdParty_Example' do
+  pod 'ALSThirdParty', :path => '../'
+
+  target 'ALSThirdParty_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
