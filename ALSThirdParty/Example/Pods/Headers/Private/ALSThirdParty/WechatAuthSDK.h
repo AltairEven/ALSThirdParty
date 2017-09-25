@@ -1,1 +1,0 @@
-../../../../../ALSThirdParty/Classes/WechatAuthSDK.h
