@@ -25,7 +25,7 @@ This is a long description of ALSThirdParty. This is a long description of ALSTh
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AltairEven' => 'qianye.qy@alibaba-inc.com' }
-  s.source           = { :git => 'https://github.com/AltairEven/ALSThirdParty.git', :tag => s.version.to_s , :commit => "86c6de50aeebf69b94b692c2317ea91d454ef5a9"}
+  s.source           = { :git => 'https://github.com/AltairEven/ALSThirdParty.git'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
