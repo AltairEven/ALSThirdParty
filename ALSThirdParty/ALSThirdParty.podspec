@@ -30,11 +30,11 @@ This is a long description of ALSThirdParty. This is a long description of ALSTh
 
   s.ios.deployment_target = '8.0'
 
-  s.vendored_frameworks = "ALSThirdParty/Classes/*.{framework}","ALSThirdParty/Classes/**/*.{framework}"
-  s.public_header_files = "ALSThirdParty/Classes/**/*.h"
-  s.source_files = "ALSThirdParty/Classes/**/*.h"
-  s.vendored_libraries = "ALSThirdParty/Classes/*.{a}","ALSThirdParty/Classes/**/*.{a}"
-  s.resources = "ALSThirdParty/Classes/*.bundle","ALSThirdParty/Classes/**/*.bundle"
-  s.frameworks = 'SystemConfiguration','CoreTelephony'
-  s.libraries = 'stdc++.6.0.9','c++','z.1.2.8','sqlite3.0'
+  s.ios.public_header_files = "ALSThirdParty/Classes/**/*.h"
+  s.ios.source_files = "ALSThirdParty/Classes/**/*.h"
+  s.ios.vendored_frameworks = "ALSThirdParty/Classes/**/*.{framework}"
+  s.ios.vendored_libraries = "ALSThirdParty/Classes/*.{a}","ALSThirdParty/Classes/**/*.{a}"
+  s.ios.resources = "ALSThirdParty/Classes/*.bundle","ALSThirdParty/Classes/**/*.bundle"
+  s.ios.frameworks = 'SystemConfiguration','CoreTelephony'
+  s.ios.libraries = 'stdc++.6.0.9','c++','z.1.2.8','sqlite3.0'
 end

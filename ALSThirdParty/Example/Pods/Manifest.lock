@@ -1,5 +1,5 @@
 PODS:
-  - ALSThirdParty (0.1.0)
+  - ALSThirdParty (0.0.1)
 
 DEPENDENCIES:
   - ALSThirdParty (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ALSThirdParty: b540162420b6523c708259e991fb3a4b0f878649
+  ALSThirdParty: 2caa9d37df45e65336619ad52889a876ebbde005
 
 PODFILE CHECKSUM: 9b21ec110ec48b461c29559070ac3bc5d0a462e1
 
