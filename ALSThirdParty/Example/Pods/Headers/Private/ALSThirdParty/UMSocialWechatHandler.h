@@ -1,1 +1,1 @@
-../../../../../ALSThirdParty/Classes/UMengUShare/UShareSDK/SocialLibraries/WeChat/UMSocialWechatHandler.h
+../../../../../ALSThirdParty/Classes/UMSocialWechatHandler.h

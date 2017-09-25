@@ -1,1 +1,1 @@
-../../../../../ALSThirdParty/Classes/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WBHttpRequest+WeiboToken.h
+../../../../../ALSThirdParty/Classes/WBHttpRequest+WeiboToken.h

@@ -19,11 +19,11 @@
     "ios": "8.0"
   },
   "ios": {
-    "source_files": "ALSThirdParty/Classes/**/*.{h,m}",
-    "public_header_files": "ALSThirdParty/Classes/**/*.h",
-    "vendored_frameworks": "ALSThirdParty/Classes/**/*.{framework}",
-    "vendored_libraries": "ALSThirdParty/Classes/**/*.{a}",
-    "resources": "ALSThirdParty/Classes/**/*.bundle",
+    "source_files": "ALSThirdParty/Classes/*.{h,m}",
+    "public_header_files": "ALSThirdParty/Classes/*.h",
+    "vendored_frameworks": "ALSThirdParty/Frameworks/*.{framework}",
+    "vendored_libraries": "ALSThirdParty/Libs/*.{a}",
+    "resources": "ALSThirdParty/Assets/*.bundle",
     "frameworks": [
       "SystemConfiguration",
       "CoreTelephony"

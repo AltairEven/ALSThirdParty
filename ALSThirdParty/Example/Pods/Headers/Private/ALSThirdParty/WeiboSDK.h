@@ -1,1 +1,1 @@
-../../../../../ALSThirdParty/Classes/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.h
+../../../../../ALSThirdParty/Classes/WeiboSDK.h

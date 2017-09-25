@@ -1,1 +1,1 @@
-../../../../../ALSThirdParty/Classes/UMengUShare/UShareSDK/SocialLibraries/Sina/UMSocialSinaHandler.h
+../../../../../ALSThirdParty/Classes/UMSocialSinaHandler.h

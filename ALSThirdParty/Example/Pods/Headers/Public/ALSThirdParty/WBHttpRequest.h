@@ -1,1 +1,1 @@
-../../../../../ALSThirdParty/Classes/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WBHttpRequest.h
+../../../../../ALSThirdParty/Classes/WBHttpRequest.h

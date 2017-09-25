@@ -80,14 +80,14 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "../../ALSThirdParty/Classes/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
-  install_resource "../../ALSThirdParty/Classes/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
-  install_resource "../../ALSThirdParty/Classes/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle"
+  install_resource "../../ALSThirdParty/Assets/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "../../ALSThirdParty/Assets/UMSocialSDKPromptResources.bundle"
+  install_resource "../../ALSThirdParty/Assets/WeiboSDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "../../ALSThirdParty/Classes/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
-  install_resource "../../ALSThirdParty/Classes/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
-  install_resource "../../ALSThirdParty/Classes/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle"
+  install_resource "../../ALSThirdParty/Assets/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "../../ALSThirdParty/Assets/UMSocialSDKPromptResources.bundle"
+  install_resource "../../ALSThirdParty/Assets/WeiboSDK.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

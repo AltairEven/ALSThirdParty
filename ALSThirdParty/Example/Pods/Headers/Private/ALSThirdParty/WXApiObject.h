@@ -1,1 +1,1 @@
-../../../../../ALSThirdParty/Classes/UMengUShare/UShareSDK/SocialLibraries/WeChat/WechatSDK/WXApiObject.h
+../../../../../ALSThirdParty/Classes/WXApiObject.h

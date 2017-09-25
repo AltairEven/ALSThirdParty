@@ -1,1 +1,1 @@
-../../../../../ALSThirdParty/Classes/UMengUShare/UShareSDK/SocialLibraries/WeChat/WechatSDK/WechatAuthSDK.h
+../../../../../ALSThirdParty/Classes/WechatAuthSDK.h
