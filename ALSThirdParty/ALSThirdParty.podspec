@@ -32,7 +32,7 @@ This is a long description of ALSThirdParty. This is a long description of ALSTh
 
   s.ios.source_files = 'ALSThirdParty/Classes/*.{h,m}'
   s.ios.public_header_files = 'ALSThirdParty/Classes/*.{h}'
-  s.ios.vendored_frameworks = 'ALSThirdParty/Frameworks/*.{framework}’
+  s.ios.vendored_frameworks = 'ALSThirdParty/Frameworks/*.{framework}'
   s.ios.vendored_libraries = 'ALSThirdParty/Libs/*.{a}'
   s.ios.resources = 'ALSThirdParty/Assets/*.{bundle}'
   s.ios.frameworks = 'SystemConfiguration','CoreTelephony'
