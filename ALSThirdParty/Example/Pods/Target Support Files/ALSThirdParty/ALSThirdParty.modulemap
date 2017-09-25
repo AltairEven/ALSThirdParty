@@ -1,6 +1,0 @@
-framework module ALSThirdParty {
-  umbrella header "ALSThirdParty-umbrella.h"
-
-  export *
-  module * { export * }
-}
