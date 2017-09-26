@@ -30,11 +30,11 @@ This is a long description of ALSThirdParty. This is a long description of ALSTh
 
   s.ios.deployment_target = '8.0'
 
-  #s.ios.source_files = 'Classes/*.{h,m}'
-  #s.ios.public_header_files = 'Classes/*.{h}'
-  #s.ios.vendored_frameworks = 'Frameworks/*.{framework}'
-  #s.ios.vendored_libraries = 'Libs/*.{a}'
-  #s.ios.resources = 'Assets/*.{png,jpg,bundle}'
+  #s.ios.source_files = 'Classes/*.{h}'
+  s.ios.public_header_files = 'Classes/*.{h}'
+  s.ios.vendored_frameworks = 'Frameworks/*.{framework}'
+  s.ios.vendored_libraries = 'Libs/*.{a}'
+  s.ios.resources = 'Assets/*.{png,jpg,bundle}'
   s.ios.frameworks = 'SystemConfiguration','CoreTelephony'
   s.ios.libraries = 'stdc++.6.0.9','c++','z.1.2.8','sqlite3.0'
 end
