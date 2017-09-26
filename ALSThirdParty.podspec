@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 This is a long description of ALSThirdParty. This is a long description of ALSThirdParty.
                        DESC
 
-  s.homepage         = 'https://github.com/AltairEven/ALSThirdParty'
+  s.homepage         = 'https://github.com/AltairEven/ALSThirdParty.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AltairEven' => 'qianye.qy@alibaba-inc.com' }
